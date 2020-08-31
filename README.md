@@ -52,13 +52,13 @@ Here is a table with the `endpoint` descriptions:
 
 | Action               | URL               | Method | Response         |
 | :------------------- | :---------------- | :----- | :--------------- |
-| Add a Lesson         | /api/lessons      | POST   | the new Lesson   |
-| View list of Lessons | /api/lessons      | GET    | array of Lessons |
-| View Lesson details  | /api/lessons/{id} | GET    | a Lesson         |
-| Update Lesson        | /api/lessons/{id} | PATCH  | updated Lesson   |
-| Remove a Lesson      | /api/lessons/{id} | DELETE | deleted Lesson   |
-| Add a Hub            | /api/hubs         | POST   | the new Hub      |
-| View list of Hubs    | /api/hubs         | GET    | array of Hubs    |
-| View Hub details     | /api/hubs/{id}    | GET    | a Hub            |
-| Update Hub           | /api/hubs/{id}    | PATCH  | updated Hub      |
-| Remove a Hub         | /api/hubs/{id}    | DELETE | deleted Hub      |
+| Add a Lesson         | /api/lessons      | POST   | the new Lesson   | X
+| View list of Lessons | /api/lessons      | GET    | array of Lessons | X
+| View Lesson details  | /api/lessons/{id} | GET    | a Lesson         | X
+| Update Lesson        | /api/lessons/{id} | PATCH  | updated Lesson   | X
+| Remove a Lesson      | /api/lessons/{id} | DELETE | deleted Lesson   | X
+| Add a Hub            | /api/hubs         | POST   | the new Hub      | X
+| View list of Hubs    | /api/hubs         | GET    | array of Hubs    | X
+| View Hub details     | /api/hubs/{id}    | GET    | a Hub            | X
+| Update Hub           | /api/hubs/{id}    | PATCH  | updated Hub      | X
+| Remove a Hub         | /api/hubs/{id}    | DELETE | deleted Hub      | X
